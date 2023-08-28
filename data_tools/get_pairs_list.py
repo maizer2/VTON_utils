@@ -26,7 +26,7 @@ class get_pairs_list:
         img_list, cloth_list = self.A_list, self.B_list
         
         if not no_pairs:
-            txt = self.write_pairs(img_list, img_list)
+            txt = self.write_pairs(img_list, cloth_list)
         else:
             random.shuffle(cloth_list)
             txt = self.write_pairs(img_list, cloth_list)
