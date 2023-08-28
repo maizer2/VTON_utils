@@ -4,8 +4,8 @@ import os, random, argparse
 class get_pairs_list:
             
     def __init__(self, 
-                 A_path: list, 
-                 B_path: list):
+                 A_path: str, 
+                 B_path: str):
         
         self.A_list = os.listdir(A_path)
         self.B_list = os.listdir(B_path)
