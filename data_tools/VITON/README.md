@@ -1,6 +1,6 @@
 # VITON data_tools
 
-```DressCode_file_tree
+```VITON_file_tree
 -- VITON
 |-- image
 |   |-- 000000_0.jpg  # original
