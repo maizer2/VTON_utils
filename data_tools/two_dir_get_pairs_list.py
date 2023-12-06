@@ -63,4 +63,4 @@ def get_opt():
 if __name__ == "__main__":
     opt = get_opt()
     
-    make_pairs_list(opt.A_path, opt.B_path)(opt.out_path, opt.no_pairs, opt.phase)
+    get_pairs_list(opt.A_path, opt.B_path)(opt.out_path, opt.no_pairs, opt.phase)
